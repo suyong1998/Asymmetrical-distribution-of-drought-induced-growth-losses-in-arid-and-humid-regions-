@@ -2,6 +2,9 @@
 
 ```R
 library(dplR)
+input_dir <- "E:/experiment/DTR_AI_growth/data/ITRDB/touwenjian_qingli_99"
+
+output_dir <- "E:/experiment/DTR_AI_growth/data/ITRDB/FZS_STD"
 files <- list.files(path = input_dir, pattern = "*.rwl", full.names = TRUE)
 success_files <- c()
 for(file in files) {
